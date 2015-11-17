@@ -1,0 +1,105 @@
+[Root]
+Most Recent Package=PenjualanPembelian
+
+
+[Package|PenjualanPembelian|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Richie\Ado\HasilSetup
+
+[Package|PenjualanPembelian|Configure DAO ISAMs]
+Applicable=No
+
+[Package|PenjualanPembelian|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PenjualanPembelian|Files Found]
+
+[Package|PenjualanPembelian|Files Released]
+
+[Package|PenjualanPembelian|Missing Dependency Information]
+
+[Package|PenjualanPembelian|Out-of-Date Dependency Information]
+
+[Package|PenjualanPembelian|Files Added]
+E:\Richie\Ado\Bab 6\DataEnvironment\AVB1.mdb=
+
+[Package|PenjualanPembelian|Files Removed]
+
+[Package|PenjualanPembelian|Files In Project]
+E:\Richie\Ado\Bab 6\DataEnvironment\DataProject.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSDATLST.OCX=Yes
+C:\WINNT\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Richie\Ado\Bab 6\DataEnvironment\AVB1.mdb=Yes
+
+[Package|PenjualanPembelian|Configure Registry Files]
+Applicable=No
+
+[Package|PenjualanPembelian|Configure Remote Servers]
+Applicable=No
+
+[Package|PenjualanPembelian|Install Locations]
+E:\Richie\Ado\Bab 6\DataEnvironment\DataProject.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Richie\Ado\Bab 6\DataEnvironment\AVB1.mdb=$(AppPath)
+
+[Package|PenjualanPembelian|Configure Shared Files]
+Applicable=Yes
+E:\Richie\Ado\Bab 6\DataEnvironment\DataProject.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\Richie\Ado\Bab 6\DataEnvironment\AVB1.mdb=No
+
+[Package|PenjualanPembelian|Distribution]
+Type=single
+Size=
+Title=PenjualanPembelian
+
+[Package|PenjualanPembelian|IconGroups]
+Group0=PenjualanPembelian
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|PenjualanPembelian|PenjualanPembelian]
+Icon1=DataProject.EXE
+Title1=PenjualanPembelian
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|PenjualanPembelian|Package]
+PackageFolder=E:\Richie\Ado\HasilSetup
+ProjectFolder=E:\Richie\Ado\Bab 6\DataEnvironment
+ServerSideCab=
+File1=E:\Richie\Ado\HasilSetup\setup.exe
+File2=E:\Richie\Ado\HasilSetup\Setup.Lst
+File3=E:\Richie\Ado\HasilSetup\DataProject.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

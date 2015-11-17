@@ -1,0 +1,32 @@
+VERSION 5.00
+Begin VB.Form Form1 
+   Caption         =   "Form1"
+   ClientHeight    =   2400
+   ClientLeft      =   48
+   ClientTop       =   432
+   ClientWidth     =   3744
+   LinkTopic       =   "Form1"
+   ScaleHeight     =   2400
+   ScaleWidth      =   3744
+   StartUpPosition =   3  'Windows Default
+End
+Attribute VB_Name = "Form1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+'Kill: Menghapus sebuah file
+
+Private Sub Form_Load()
+    Dim NamaFile As String
+    On Error GoTo Salah
+    'Menghapus file
+    NamaFile = InputBox("Nama file akan dihapus (contoh: C:\DATA.DAT):")
+    Kill NamaFile
+    MsgBox "File sudah dihapus"
+    End
+Salah:
+    MsgBox "File tidak ditemukan!"
+    End
+End Sub
+
